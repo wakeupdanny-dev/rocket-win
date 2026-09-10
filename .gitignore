@@ -1,0 +1,15 @@
+# dependencies & build output
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+rocket-service/target/
+
+# bundled proxy core — run scripts/fetch-singbox.sh (≈79 MB, not committed)
+src-tauri/binaries/*.exe
+src-tauri/binaries/*.dll
+
+# misc
+*.log
+.DS_Store
+Thumbs.db
